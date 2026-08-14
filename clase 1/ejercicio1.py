@@ -1,0 +1,7 @@
+print("hola")
+nombre = input ("soy pepito el crack, como te llamas tu?\n")
+print("mucho gusto", nombre ,", que edad tienes?")
+edad = input ("")
+print(edad ,"? wow, y de donde eres?")
+direccion = input("")
+print("bueno bueno, solo preguntaba")

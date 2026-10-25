@@ -6,7 +6,7 @@ intento = 0
 
 while(intento < 3):
 
-    respuesta = int(input("Intenta adivinar el numero\n"))
+    respuesta = int(input("Intenta adivinar el numero del 1 al 10\n"))
 
     if (respuesta == num):
         print("Felicidades, si era ", num)
@@ -16,6 +16,7 @@ while(intento < 3):
         print("oooh que mal, era ", num)
         intento = intento + 1
         num = random.randint(1,10)
+        print("=======================")
 
 if (respuesta != num):
     print("se acabaron los intentos")
